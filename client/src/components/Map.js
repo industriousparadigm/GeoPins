@@ -1,12 +1,12 @@
-import React from "react";
-import { withStyles } from "@material-ui/core/styles";
-// import Button from "@material-ui/core/Button";
-// import Typography from "@material-ui/core/Typography";
-// import DeleteIcon from "@material-ui/icons/DeleteTwoTone";
+import React from "react"
+import { withStyles } from "@material-ui/core/styles"
+// import Button from "@material-ui/core/Button"
+// import Typography from "@material-ui/core/Typography"
+// import DeleteIcon from "@material-ui/icons/DeleteTwoTone"
 
 const Map = ({ classes }) => {
-  return <div>Map</div>;
-};
+  return <div>Map</div>
+}
 
 const styles = {
   root: {
@@ -37,6 +37,6 @@ const styles = {
     justifyContent: "center",
     flexDirection: "column"
   }
-};
+}
 
-export default withStyles(styles)(Map);
+export default withStyles(styles)(Map)
